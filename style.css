@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Nunito:wght@200;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+}
+li {
+  cursor: pointer;
+}
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-block: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.hero {
+  background-image: linear-gradient(rgb(35, 138, 138), rgb(98, 48, 174));
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzW3GJDVTvs7nj9QqS7aqpJ4MqhH6kxQcaTQ&usqp=CAU); */
+  background-image: url(https://media.istockphoto.com/vectors/man-wearing-virtual-reality-headset-abstract-vr-world-with-neon-lines-vector-id1147229526?k=20&m=1147229526&s=612x612&w=0&h=DtZvaOkkQ4DpGp3mmrUCNpqxew0Bm3K6SOaSZXRUrzY=);
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIj245NUuPceVR5dW0Y2LJA3rQULOUM5iHr3CziXYhuRDr6GyoJCckWAORn-MbOy2ZWo&usqp=CAU); */
+  background-position: top center;
+  background-size: cover;
+}
+/* Navbar styling */
+.nav-ul {
+  display: grid;
+  grid-template-columns: 1rem 7rem 1fr 2rem 1rem;
+  padding: 2rem 0rem;
+}
+.logo-li {
+  grid-column: 2/3;
+  width: 8rem;
+}
+.logo {
+  height: 1.5rem;
+  cursor: pointer;
+}
+.menu-li {
+  grid-column: 4/5;
+}
+.menu {
+  cursor: pointer;
+}
+/* Mobile nav  ------------------------------*/
+.mobile {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  position: relative;
+  top: 9%;
+}
+.mobile-nav {
+  display: none;
+  display: grid;
+  grid-template-columns: 1rem 7rem 1fr 2rem 1rem;
+  padding: 2rem 0rem;
+}
+
+.m-link {
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding-left: 1rem;
+  margin-top: 5rem;
+  text-transform: uppercase;
+}
+.d-link {
+  display: none;
+}
+/* first  */
+.first {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.first-text {
+  border: 2px solid white;
+  padding: 1rem;
+  margin: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+/* second */
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 1rem;
+}
+.interactive {
+  width: 50vh;
+  padding: 1rem 0rem;
+}
+.second h1 {
+  padding: 1rem 0rem;
+  color: hsl(0, 0%, 21%);
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+.second p {
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  color: hsl(0, 0%, 61%);
+  margin: 1rem;
+}
+.d {
+  display: none;
+}
+.d-btn {
+  display: none;
+}
+/* Our Creation  */
+
+.creations h1 {
+  padding: 1rem 0rem;
+  color: hsl(0, 0%, 21%);
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+.our {
+  margin: 2rem;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+.our li {
+  /* border: 2px solid black; */
+
+  height: 7rem;
+  padding-top: 2.3rem;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+}
+.one {
+  background-image: url("./images/mobile/image-deep-earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.two {
+  background-image: url("./images/mobile/image-night-arcade.jpg");
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.three {
+  background-image: url("./images/mobile/image-soccer-team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.four {
+  background-image: url("./images/mobile/image-grid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.five {
+  background-image: url("./images/mobile/image-from-above.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.six {
+  background-image: url("./images/mobile/image-pocket-borealis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seven {
+  background-image: url("./images/mobile/image-curiosity.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.eitht {
+  background-image: url("./images/mobile/image-fisheye.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn {
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+.btn button {
+  padding: 1rem 2rem;
+  margin: 0.6rem 0rem;
+  letter-spacing: 0.5rem;
+  background-color: white;
+  border: 0.1rem solid black;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+.end {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.end-logo {
+  height: 1.5rem;
+  cursor: pointer;
+  margin: 2rem 0rem;
+  margin-bottom: 0rem;
+  /* padding: 2rem 0rem; */
+}
+.about li {
+  margin: 2rem 0rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.link img {
+  margin-inline: 0.5rem;
+  cursor: pointer;
+}
+footer {
+  margin-bottom: 3rem;
+}
+
+/* -----------------------------------------Desktop layout --------------------------------------------*/
+@media only screen and (min-width: 1000px) {
+  .hero {
+    /* background: url(/image-hero.jpg); */
+    background-position: center;
+    background-size: cover;
+  }
+  .menu-li {
+    display: none;
+  }
+  .logo {
+    height: 3.1rem;
+  }
+  .d-link {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    grid-column: 4/5;
+  }
+  .navbar {
+    display: grid;
+    /* grid-template-columns: 10rem 1fr 1fr 25rem 10rem; */
+    grid-template-columns: 1fr 2fr 3fr 3fr 1fr;
+  }
+  .nav-ul {
+    grid-column: 2/3;
+    display: flex;
+  }
+  .logo-li {
+    width: 20rem;
+    height: 4rem;
+  }
+  /* first-desktop */
+  .first {
+    justify-content: left;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  .first-text {
+    border: 3px solid white;
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+    padding: 3rem;
+    margin-left: 5rem;
+  }
+  .display {
+    display: none;
+  }
+  /* interactive */
+  .second {
+    display: none;
+  }
+  .interactive {
+    display: none;
+  }
+  .d {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+  }
+
+  .d-second {
+    /* border: 1px solid; */
+    width: 30rem;
+    padding: 2rem;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    right: 23.5%;
+    top: 130%;
+    /* margin-inline: 8rem; */
+  }
+  .d-interactive {
+    height: 30vw;
+    position: relative;
+    right: -5%;
+    z-index: -1;
+  }
+  .d-second h1 {
+    padding: 1rem 0rem;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+  }
+  .d-second p {
+    display: block;
+    padding: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 61%);
+    font-size: small;
+    padding-inline: 2.3rem;
+  }
+  /* creations */
+  .creations {
+    margin: 5rem;
+  }
+  .creations h1 {
+    text-align: left;
+    margin-inline: 2rem;
+    font-size: 2.5rem;
+  }
+  .c {
+    display: flex;
+  }
+  .d-btn button {
+    margin-left: 40rem;
+    justify-content: right;
+    padding: 1rem 2rem;
+    /* margin: 0.6rem 0rem; */
+    letter-spacing: 0.5rem;
+    background-color: white;
+    border: 0.1rem solid black;
+    color: hsl(0, 0%, 0%);
+  }
+  .d-btn {
+    display: block;
+  }
+  .btn {
+    display: none;
+  }
+  /* creations images  */
+  .one {
+    background-image: url("./images/desktop/image-deep-earth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .two {
+    background-image: url("./images/desktop/image-night-arcade.jpg");
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .three {
+    background-image: url("./images/desktop/image-soccer-team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .four {
+    background-image: url("./images/desktop/image-grid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .five {
+    background-image: url("./images/desktop/image-from-above.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .six {
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .seven {
+    background-image: url("./images/desktop/image-curiosity.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .eitht {
+    background-image: url("./images/desktop/image-fisheye.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .our {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .our li {
+    height: 27rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    padding-top: 19.5rem;
+    padding-left: 3rem;
+  }
+  /* end  */
+  .end {
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .end-logo {
+    grid-column: 1/2;
+  }
+  .about {
+    display: flex;
+    gap: 1rem;
+    grid-column: -3/-2;
+  }
+  .link {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    text-align: right;
+  }
+  footer {
+    text-align: right;
+  }
+}
